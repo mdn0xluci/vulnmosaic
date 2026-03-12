@@ -37,6 +37,12 @@ vulnmosaic/
 - Ethics arent a disclaimer — theyre an architecture decision.
 - Edgewatch connectors as first-class intelligence layer.
 
+## Follow along
+
+I post weekly updates, tool spotlights, and honest build notes on Telegram:
+
+👉 [tools, tea & tactics](https://t.me/tools_tea_tactics)
+
 ## Status
 
 🚧 Early development. I'm building this in public because I think security tooling deserves better than a pile of scripts and vibes.
