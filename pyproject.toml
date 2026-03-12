@@ -1,0 +1,31 @@
+[project]
+name = "vulnmosaic"
+version = "0.1.0"
+description = "AI-powered security operator with evidence-first reporting"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Luci Mdn", email = "mdn0xluci@gmail.com" }]
+keywords = ["security", "automation", "ai", "scanning", "evidence"]
+
+dependencies = [
+    "httpx>=0.27",
+    "structlog>=24.0",
+    "pydantic>=2.0",
+    "click>=8.1",
+    "jinja2>=3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+vulnmosaic = "vulnmosaic.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
